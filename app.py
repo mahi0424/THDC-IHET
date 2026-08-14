@@ -6,7 +6,7 @@ import torch.nn as nn
 from torchvision import transforms
 import io
 
-app = FastAPI(title="MNIST CNN PyTorch API")
+app = FastAPI(title="mnist_cnn_pytorch")
 
 # -----------------------------
 # CNN model definition
